@@ -1,0 +1,57 @@
+h1{
+    color: blue;
+    text-align: center;
+}
+.highlight{
+    background-color: yellow;
+    padding: 5px;
+}
+
+p{
+    font-family: sans-serif;
+    line-height: 1.6;
+}
+
+.important{
+    font-weight: bold;
+    color: red;
+}
+
+#special-paragraph{
+    border: 2px dashed green;
+}
+
+div>p{
+    font-size: 14px;
+}
+
+h2+p{
+    text-decoration: none;
+}
+
+a[href="htpps://www.example.com"]{
+    color: purple;
+}
+
+input[type="text"]{
+    border: 1px solid grey;
+    padding: 5px;
+    margin: 5px;
+}
+
+h3~p{
+    background-color: aliceblue;
+}
+
+button:hover{
+    background-color: lightgray;
+    cursor: position;
+}
+
+p:first-child{
+    font-style: italic;
+}
+
+p::first-line{
+    font-weight: bold;
+}
